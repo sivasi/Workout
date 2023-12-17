@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   next()
 })
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://luminous-puffpuff-e174e2.netlify.app"
 };
 
 app.use(cors(corsOptions));
