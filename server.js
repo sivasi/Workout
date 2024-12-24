@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   next()
 })
 var corsOptions = {
-  origin: "https://luminous-puffpuff-e174e2.netlify.app"
+  origin: "https://animated-maamoul-ad9082.netlify.app"
 };
 
 app.use(cors(corsOptions));
